@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="App" style={backgroundStyle}>
       <button onClick={fetchKanyeQuote} className="quote-button">
-        Kanye Quote
+        Ye Quote
       </button>
       {isLoading ? (
         <div className="loader"></div>
